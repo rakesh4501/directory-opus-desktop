@@ -1,0 +1,9 @@
+# Language detection rules
+**/*.go linguist-detectable
+public/**/*.html linguist-vendored
+*.yaml linguist-detectable=false
+
+*.min.css linguist-generated
+vendor/* linguist-vendored
+
+*.htm linguist-vendored
